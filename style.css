@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    margin: auto;
 }
 
 .header {
@@ -7,7 +8,8 @@
     padding: 15px;
     text-align: center;
     background-color: #ebebeb;
-    margin: 5px;
+    margin-bottom: 5px;
+    margin-top: 10px;
 }
 
 .nav {
@@ -20,6 +22,7 @@
 
 .section {
     width: 50%;
+    height: 100%;
     float: left;
     padding: 15.5px;
     border: 1px solid black;
@@ -49,6 +52,7 @@
     background-color: #ebebeb;
     color: #777;
     overflow: auto;
+    margin-bottom: 3px;
 }
 
 .para {
@@ -64,7 +68,7 @@
 .aside {
     width: 49%;
     float: right;
-    padding-bottom: 235px;
+    padding-bottom: 178px;
     border: 1px solid black;
     text-align: center;
     color: #777;
@@ -77,10 +81,11 @@
     text-align: center;
     float: left;
     padding-top: 10px;
-    padding-right: 30px;
+    padding-right: 25px;
     border: 1px solid black;
     background-color: #ebebeb;
-    margin: 5px;
+    margin-top: 5px;
+    clear: both;
 }
 
 body {
